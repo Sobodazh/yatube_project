@@ -8,6 +8,6 @@ def index(request):
     return HttpResponse('Мой блог')
 
 
-# Страница с публикациями друзей
+# Страницы сообществ
 def group_posts(request, slug):
-    return HttpResponse(f'Публикации друзей {slug}')
+    return HttpResponse(f'Страницы сообществ {slug}')
